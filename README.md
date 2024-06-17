@@ -39,7 +39,13 @@ git clone https://github.com/marcoszapatao/seguroapp.git
 cd seguroapp
 
 ### Compilar el Proyecto
-mvn clean install
+mvn clean compile
 
 ### Ejecutar las pruebas
 mvn test
+
+### Empaquetar el proyecto
+mvn package
+
+### Ejecutar el JAR
+java -jar target/seguroapp-1.0-SNAPSHOT.jar
