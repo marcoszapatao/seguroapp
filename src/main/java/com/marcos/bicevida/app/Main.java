@@ -16,10 +16,10 @@ public class Main {
         System.out.println("1.- Lista de IDs de Clientes: "+listClientsIds());
         System.out.println("2.- Lista de IDs de Clientes ordenados por RUT: "+listClientsIdsSortedByRUT());
         System.out.println("3.- Lista los nombres ordenados de mayor a menor por balance en cuenta: "+sortClientsTotalBalances());
-        System.out.println("4.- "+insuranceClientsByRUT());
-        System.out.println("5.- Mas de 30000: "+higherClientsBalances());
-        System.out.println("6.- Cantidad de dinero administrado: "+insuranceSortedByHighestBalance());
-        System.out.println("7.- Seguros con cliente explusivos: "+uniqueInsurance());
+        System.out.println("4.- Nombre de seguro y RUT de clientes ordenados alfabeticamente "+insuranceClientsByRUT());
+        System.out.println("5.- Saldos de cleintes con mas de 30000 en APV: "+higherClientsBalances());
+        System.out.println("6.- Cantidad de dinero administrado ordenado crecientemente: "+insuranceSortedByHighestBalance());
+        System.out.println("7.- Seguros con cliente exclusivos: "+uniqueInsurance());
         System.out.println("8.- Clientes con menos fondos: "+clientWithLessFunds());
         System.out.println("9.- Ranking de nuevo cliente: "+ newClientRanking());
     }
