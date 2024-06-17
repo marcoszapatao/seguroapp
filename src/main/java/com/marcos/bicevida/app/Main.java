@@ -21,7 +21,7 @@ public class Main {
         System.out.println("6.- Cantidad de dinero administrado: "+insuranceSortedByHighestBalance());
         System.out.println("7.- Seguros con cliente explusivos: "+uniqueInsurance());
         System.out.println("8.- Clientes con menos fondos: "+clientWithLessFunds());
-        System.out.println("9.- Ranking de nuevo cleinte: "+ newClientRanking());
+        System.out.println("9.- Ranking de nuevo cliente: "+ newClientRanking());
     }
 
     private static final List<Cliente> clients = List.of(
