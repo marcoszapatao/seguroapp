@@ -35,7 +35,7 @@ seguroapp/
 ## Instalación y Ejecución
 
 ### Clonar el Repositorio
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/marcoszapatao/seguroapp.git
 cd seguroapp
 
 ### Compilar el Proyecto

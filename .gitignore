@@ -1,0 +1,55 @@
+# Directorio de dependencias de Maven
+target/
+
+# Archivos de configuración de Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Archivos de log
+*.log
+
+# Archivos de compilación
+*.class
+
+# Archivos de configuración del entorno de desarrollo
+*.iml
+.idea/
+*.iws
+*.ipr
+.vscode/
+.DS_Store
+
+# Archivos de configuración del sistema operativo
+Thumbs.db
+*.swp
+
+# Archivos de configuración específicos de IntelliJ
+out/
+*.idea/
+*.ipr
+*.iws
+*.iml
+
+# Directorios de configuración de Eclipse
+.metadata/
+bin/
+tmp/
+*.bak
+*.tmp
+*.backup
+*.swp
+*.swo
+
+# Archivos de configuración de NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Archivos de configuración de VS Code
+.vscode/
